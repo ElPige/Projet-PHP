@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Car'Usell</title>
-    <link rel="stylesheet" type="text/css" href="../view/css/main.view.css">
+    <link rel="stylesheet" type="text/css" href="../view/design/main.view.css">
   </head>
   <body>
     <?php

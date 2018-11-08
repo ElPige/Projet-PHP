@@ -1,11 +1,12 @@
 .annonces {
  width:1000px;
  height:200px;
+ background-color: orange;
  margin:10px auto;
 }
 
 h3 {
   margin: auto;
   text-align: right;
-  
+
 }
