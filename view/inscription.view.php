@@ -8,7 +8,7 @@
     <div class="Inscription">
       <h1>Inscription 1/2</h1>
 
-   <form method="post" action="inscription.php" enctype="multipart/form-data">
+   <form method="post" action="../index.php" enctype="multipart/form-data">
 
    <fieldset><legend>Identifiants</legend>
    <label for="pseudo"> Pseudo * :</label>  <input name="pseudo" type="text" id="pseudo" /> (le pseudo doit contenir entre 3 et 15 caractères)<br />
