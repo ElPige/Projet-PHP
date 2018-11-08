@@ -6,11 +6,21 @@
     <link rel="stylesheet" type="text/css" href="../view/design/main.view.css">
   </head>
   <body>
+    <nav id="header">
+      <ul>
+        <li><a href="news.asp">Marques</a></li>
+          <li><a href="contact.asp">Catégories</a></li>
+          <li><a href="contact.asp">Localisation</a></li>
+          <li><a href="contact.asp">Rechercher</a></li>
+        <li style="float:right"><a class="active" href="#about">Déposer une annonce</a></li>
+      </ul>
+    </nav>
+
+
+    <h2> Annonces de voiture Car'Usell </h2>
+    <div class = 'contenaire'>
     <?php
 
-    print "<h2> Annonces de voiture </h2>";
-
-         print "<div class = 'contenair'>";
 
          foreach ($voiture as $key => $value) {
              print '<article id="voitures">';
@@ -21,7 +31,9 @@
               print "<div class = 'text'>      <h3> $value->annee </h3>";
              print '</article>';
          }
-         print "</div>";
+
   ?>
+
+  </div>
   </body>
 </html>

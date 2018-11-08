@@ -5,6 +5,50 @@
  margin:10px auto;
 }
 
+
+#header{
+  text-align: center;
+}
+
+
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff7f00;
+    font-size: 1.5em;
+}
+
+li {
+    float: left;
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: orange;
+}
+
+h2{
+  width: auto;
+  text-align: center;
+}
+
+
+
+
+
+
+
 h3 {
   margin-right: 0px;
   text-align: right;
