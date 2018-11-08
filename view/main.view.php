@@ -17,18 +17,19 @@
         <a href='http://www.google.com'></a>
       </div>";
     }
+var_dump($voiture);
 
 
+         /*foreach ($voiture as $key => $value) {
+             var_dump($value);
+             print "<div class = 'img'><img src = \"../data/BD/$value->image\"/></div>";
+             print "<div class = 'text'><h3> $value->nom </h3>";
+             print "<div class = 'text'><h3> $value->marque </h3>";
+             print "<div class = 'text'><h3> $value->modele </h3>";
+             print "<div class = 'text'><h3> $value->annee </h3>";
 
-        // foreach ($voiture as $key => $value) {
-        //     print "<div class = 'img'><img src = \"../data/BD/$value->image\"/></div>";
-        //     print "<div class = 'text'><h3> $value->nom </h3>";
-        //     print "<div class = 'text'><h3> $value->marque </h3>";
-        //     print "<div class = 'text'><h3> $value->modele </h3>";
-        //     print "<div class = 'text'><h3> $value->annee </h3>";
-        //
-        // }
-        // print "</div>";
+         }*/
+         print "</div>";
   ?>
   </body>
 </html>
