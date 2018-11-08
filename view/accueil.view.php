@@ -18,13 +18,12 @@
       <h2>CONNNECTEZ VOUS</h2>
       <fieldset>
       <legend align="left"><div id="fieldtitre"> Connexion</div></legend>
-      <form action="main.ctrl.php">
-        <p>
-          Adresse email <input name="mail" type="text" size=25 > <br>
-          Mot de passe <input name="mdp" type="password" size=25> <br>
-          <input type="submit" value="Connexion"/>
+        <form class="" action="main.ctrl.php" method="post">
+            Adresse email <input name="mail" type="text" size=25 > <br>
+            Mot de passe <input name="mdp" type="password" size=25> <br>
+            <input type="submit" value="Connexion"/>
+        </form>
         </p>
-      </form>
 
 
       </fieldset>
