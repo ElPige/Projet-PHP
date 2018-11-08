@@ -22,7 +22,7 @@ $dao = new DAO();
         function getVoiture() {
           $requete = "SELECT * FROM voiture";
           $query=($this->db)->query($requete);
-          $result =$query->fetchAll(PDO::FETCH_ASSOC);
+          $result =$query->fetchAll(PDO::FETCH_CLASS,"stdClass");
           return $result;
         }
 }
