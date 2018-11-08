@@ -29,7 +29,7 @@
 
          foreach ($voiture as $key => $value) {
              print '<article id="voitures">';
-              print "<div class = 'img'><a href=\"https://www.google.com/\"><img src = \"../data/BD/Image/$value->reference.jpg\"/></div>";
+              print "<div class = 'img'><a href=\"../controler/annonce.ctrl.php\"><img src = \"../data/BD/Image/$value->reference.jpg\"/></div>";
               print "<div class = 'text'> <h3> $value->nom </h3>";
               print "<div class = 'text'>      <h3> $value->marque </h3>";
               print "<div class = 'text'>      <h3> $value->modele </h3>";

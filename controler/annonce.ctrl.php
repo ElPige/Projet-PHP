@@ -6,13 +6,7 @@
   </head>
   <body>
 
-    <?php
-      $numAnnonce = $_GET["annonce"];
-
-
-     ?>
-
-
+    <h1>OUAOIUAOJSDMFLJMLSQDFJLM</h1>
 
   </body>
 </html>
