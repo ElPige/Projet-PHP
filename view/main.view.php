@@ -20,6 +20,8 @@
 
 
          foreach ($voiture as $key => $value) {
+             $img = $key+1 . ".jpg";
+             print "<div class = 'img'><img src = \"../data/BD/Image/$img\"/></div>";
              print "<div class = 'text'><h3> $value->nom </h3>";
              print "<div class = 'text'><h3> $value->marque </h3>";
              print "<div class = 'text'><h3> $value->modele </h3>";

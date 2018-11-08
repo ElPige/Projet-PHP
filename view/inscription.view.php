@@ -6,7 +6,7 @@
   </head>
   <body>
     <div class="Inscription">
-      <h1>Inscription 1/2</h1>
+      <h1>Inscription </h1>
 
    <form method="post" action="../index.php" enctype="multipart/form-data">
 
