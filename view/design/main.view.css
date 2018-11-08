@@ -8,6 +8,7 @@
 
 #header{
   text-align: center;
+  background-color: #ff7f00;
 }
 
 
@@ -17,7 +18,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ff7f00;
+
     font-size: 1.5em;
 }
 
@@ -41,6 +42,7 @@ li a:hover {
 h2{
   width: auto;
   text-align: center;
+  color: white;
 }
 
 

@@ -7,6 +7,7 @@
   </head>
   <body>
     <nav id="header">
+      <h2> Annonces de voiture Car'Usell </h2>
       <ul>
         <li><a href="news.asp">Marques</a></li>
           <li><a href="contact.asp">Catégories</a></li>
@@ -17,7 +18,7 @@
     </nav>
 
 
-    <h2> Annonces de voiture Car'Usell </h2>
+
     <div class = 'contenaire'>
     <?php
 
