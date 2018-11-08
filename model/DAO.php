@@ -14,7 +14,7 @@ $dao = new DAO();
             die("Impossible de se connecter : ".$e->getMessage());
           }
         }
-        
+
         function db() {
           return $this->db;
         }
