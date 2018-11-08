@@ -27,14 +27,12 @@
 
 
          foreach ($voiture as $key => $value) {
-             $img = $key+1 . ".jpg";
              echo "<div class=\"annonces\" onclick=\"document.location='http://google.com'\">
-                    <img src = \"../data/BD/Image/$img\"/>
+                    <img src = \"../data/BD/Image/$value->reference.jpg\"/>
                     <h3> $value->nom </h3>
                     <h3> $value->marque </h3>
                     <h3> $value->modele </h3>
                     <h3> $value->annee </h3>
-               <a href='http://www.google.com'></a>
              </div>";
          }
   ?>
