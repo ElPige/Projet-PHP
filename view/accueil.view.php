@@ -28,7 +28,7 @@
 
       </fieldset>
 
-      <a href="http://www-etu-info.iut2.upmf-grenoble.fr/~deangell/ProgWeb/tp6-projet/view/inscription.php"> S'inscrire</a>
+      <a href="http://localhost/Projet-PHP/controler/inscription.ctrl.php"> S'inscrire</a>
     </div>
 
     <div class="Annonces">
