@@ -6,7 +6,57 @@
 }
 
 h3 {
-  margin: auto;
+  margin-right: 0px;
   text-align: right;
 
+}
+
+article {
+  width: 550px;
+  height: 300px;
+  display: inline-block;
+  border: 1px solid #CCC;
+  background: white;
+  font-size:1.1em;
+  margin: 20px;
+  background-color: orange;
+
+}
+
+article div{
+  display:inline-block;
+}
+
+
+.contenair {
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text h3 {
+  margin-top: 10px;
+  text-align: right;
+  margin-left: 10px;
+}
+
+.text p {
+  margin : 10px;
+  text-align: left;
+}
+
+.text {
+  width: 70%;
+  margin-left: 50px;
+  vertical-align: top;
+}
+
+.img {
+  width: 17%;
+}
+
+#voitures div img {
+
+  margin: 5px;
+  margin-left: 30px;
 }
