@@ -19,8 +19,8 @@
     }
 var_dump($voiture);
 
-
          /*foreach ($voiture as $key => $value) {
+             var_dump($value);
              var_dump($value);
              print "<div class = 'img'><img src = \"../data/BD/$value->image\"/></div>";
              print "<div class = 'text'><h3> $value->nom </h3>";
