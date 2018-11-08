@@ -1,2 +1,2 @@
-1|Peugeot 3008|Peugeot|3008|2010|voiture1.jpg
-2|Peugeot 207|Peugeot|207|2006|voiture2.jpg
+1|Peugeot 3008|Peugeot|3008|2010|voiture1.jpg|1
+2|Peugeot 207|Peugeot|207|2006|voiture2.jpg|2

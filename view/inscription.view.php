@@ -16,10 +16,17 @@
    <label for="confirm"> Confirmer le mot de passe * :</label><input type="password" name="confirm" id="confirm" />
    </fieldset>
 
+   <fieldset><legend>Données personnelles</legend>
+   <label for="email"> Nom * :</label><input type="text" name="email" id="email" /><br />
+   <label for="telephone"> Prénom :</label><input type="text" name="tel" id="tel" /><br />
+   </fieldset>
+
+
    <fieldset><legend>Contacts</legend>
    <label for="email"> Votre adresse Mail * :</label><input type="text" name="email" id="email" /><br />
    <label for="telephone"> Votre téléphone :</label><input type="text" name="tel" id="tel" /><br />
    </fieldset>
+
    <p>Les champs suivis d'un * sont obligatoires</p>
     <input type="checkbox" name="conditions" value="0" checked="false" />J'accepte les conditions d'utilisateur *<br>
    <p><input type="submit" value="S'inscrire" /></p></form>

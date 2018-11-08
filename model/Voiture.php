@@ -9,5 +9,7 @@ class Voiture
   public $modele;
   public $annee;
   public $image;
+  public $appartientRef;
+
 };
 ?>

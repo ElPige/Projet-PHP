@@ -25,6 +25,12 @@ $dao = new DAO();
           $result =$query->fetchAll(PDO::FETCH_CLASS,"stdClass");
           return $result;
         }
+
+        function getMembre($appartientRef) {
+          $requte = "SELECT * WHERE Membre WHERE $appartientRef = reference";
+          $query = ($this->db)->query($requete);
+          $result = $query->fetchAll(PDO::FETCH_CLASS, "stdClass");
+        }
 }
 $dao = new DAO();
 ?>
