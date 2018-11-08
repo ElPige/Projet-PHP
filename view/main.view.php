@@ -19,23 +19,24 @@
     // }
 //var_dump($voiture);
 
-    for($i=0;$i<5;$i++){
-      echo "<div class=\"annonces\" onclick=\"document.location='http://google.com'\">
-        <a href='http://www.google.com'></a>
-      </div>";
-    }
+    // for($i=0;$i<5;$i++){
+    //   echo "<div class=\"annonces\" onclick=\"document.location='http://google.com'\">
+    //     <a href='http://www.google.com'></a>
+    //   </div>";
+    // }
 
 
          foreach ($voiture as $key => $value) {
              $img = $key+1 . ".jpg";
-             print "<div class = 'img'><img src = \"../data/BD/Image/$img\"/></div>";
-             print "<div class = 'text'><h3> $value->nom </h3>";
-             print "<div class = 'text'><h3> $value->marque </h3>";
-             print "<div class = 'text'><h3> $value->modele </h3>";
-             print "<div class = 'text'><h3> $value->annee </h3>";
-
+             echo "<div class=\"annonces\" onclick=\"document.location='http://google.com'\">
+                    \"<div class = 'img'><img src = \"../data/BD/Image/$img\"/></div>\"
+                    \"<div class = 'text'><h3> $value->nom </h3>\"
+                    \"<div class = 'text'><h3> $value->marque </h3>\"
+                    \"<div class = 'text'><h3> $value->modele </h3>\"
+                     \"<div class = 'text'><h3> $value->annee </h3>\"
+               <a href='http://www.google.com'></a>
+             </div>";
          }
-         print "</div>";
   ?>
   </body>
 </html>
