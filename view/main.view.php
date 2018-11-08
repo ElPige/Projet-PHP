@@ -10,8 +10,8 @@
       <h2> Annonces de voiture Car'Usell </h2>
       <ul>
         <li><a href="news.asp">Marques</a></li>
-          <li><a href="contact.asp">Catégories</a></li>
-          <li><a href="contact.asp">Localisation</a></li>
+          <li><a href="contact.asp">Modèle</a></li>
+          <li><a href="contact.asp">Année</a></li>
           <li><a href="contact.asp">Rechercher</a></li>
         <li style="float:right"><a class="active" href="#about">Déposer une annonce</a></li>
       </ul>
