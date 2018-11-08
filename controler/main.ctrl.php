@@ -1,8 +1,17 @@
 <?php
 
- include_once("../model/DAO.php");
+ require_once("../model/DAO.php");
  $voiture=$dao->getVoiture();
 
-include("../view/main.view.php");
+if (isset($_GET['annonce'])) {
+  $annonce = $_GET['annonce'];
+} else {
+  $annonce = '';
+}
 
+if ($annonce != '') {
+  include('../view/annonce.view.php');
+} else {
+  include('../view/main.view.php');
+}
 ?>
