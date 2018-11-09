@@ -13,7 +13,7 @@
           <li><a href="contact.asp">Modèle</a></li>
           <li><a href="contact.asp">Année</a></li>
           <li><a href="contact.asp">Rechercher</a></li>
-          <li><a href="contact.asp">Déposer une annonce</a></li>
+          <li><a href="../controler/ajouterAnnonce.ctrl.php">Déposer une annonce</a></li>
           <?php
 
           echo '<li style="float:right"><a class="active" href="../controler/accueil.ctrl.php?deco=1">'.$_SESSION['Membre']->pseudo.'      Deconnexion</a></li>'

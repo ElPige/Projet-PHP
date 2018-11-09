@@ -38,8 +38,9 @@
     </div>
 
     <footer>
-      <a href="https://www.google.com">Contactez nous</a>
-      <a href="https://www.google.com/intl/fr_fr/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">Qui sommes-nous ?</a>
+
+      <a href="https://www.google.com/intl/fr_fr/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">Contactez nous</a>
+      <a href="https://www.google.com">Qui sommes-nous ?</a>
     </footer>
   </body>
 </html>
