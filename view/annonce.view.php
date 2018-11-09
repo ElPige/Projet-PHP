@@ -5,8 +5,9 @@
     <title></title>
   </head>
   <body>
-
     <?php
+    $retour = 'http://www-info.iut2.upmf-grenoble.fr/intranet/enseignements/ProgWeb/M3104/TP/tp02/sujet/img/Actions-arrow-right-icon.png';
+    echo '<a href="../controler/main.ctrl.php"><img src='.$retour.'></a>';
     foreach ($annoncev as $key => $value) {
       print "<div class = 'img'><img src = \"../data/BD/Image/$value->reference.jpg\"/></div>";
       print "<div class = 'text'> <h3> Nom : $value->nom </h3>";
