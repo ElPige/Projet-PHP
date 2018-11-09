@@ -40,7 +40,7 @@ $dao = new DAO();
           }
 
           function getMember($id) {
-            $requete = "SELECT * FROM membre where referenceM = $id";
+            $requete = "SELECT * FROM membre where reference = $id";
             $query=($this->db)->query($requete);
             $result =$query->fetchAll(PDO::FETCH_CLASS,"stdClass");
             return $result[0];
@@ -61,7 +61,7 @@ $dao = new DAO();
           return $result[0];
         }
 
-        function getMaxId($from){
+        function getMaxId($from):int  {
           $requete = "SELECT max(reference) FROM $from";
           $query=($this->db)->query($requete);
           $result =$query->fetch();
@@ -70,27 +70,29 @@ $dao = new DAO();
 
 
 
-        function ajoutAnnonce($titre, $descriptif, $nom, $marque, $modele, $annee, $prix){
+        function ajoutAnnonce($titre, $descriptif, $nom, $marque, $modele, $annee, $utilisateurCourrant, $prix){
           $result2;
+          $id=$this->getMaxId('Annonce')+1;
+          var_dump($id);
+          $requete = "Insert into Annonce values($id, '$titre', '$descriptif')";
+          var_dump($requete);
+          $result=($this->db)->query($requete);
 
-          $requete = "Insert into Annonce values($dao->getMaxId('Voiture')+1, '$titre', '$descriptif')";
-          $query=($this->db)->query($requete);
-          $result =$query->fetch();
           var_dump($result);
-          if($result[0]){
-
-            $requete2 = "Insert into Voiture values($dao->getMaxId('Voiture')+1, '$titre', '$nom', '$marque', '$modele', '0','$annee', '$prix')";
-
-            $query=($this->db)->query($requete2);
-          $result2 =$query->fetch();
+          if($result){
+            $id=$this->getMaxId('Voiture')+1;
+            var_dump($id);
+            $requete2 = "Insert into Voiture values($id, '$nom', '$marque', '$modele', '0','$annee', $utilisateurCourrant,$prix)";
+            var_dump($requete2);
+            $result2=($this->db)->query($requete2);
 
           }
 
-        return $result2[0];
+        return $result2;
         }
+      }
 
 $dao = new DAO();
-var_dump($dao->ajoutAnnonce('Membre'));
 session_start();
 
 ?>
