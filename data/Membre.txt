@@ -1,3 +1,3 @@
-1|Dupont|Frédérique|Fredo|Fred@hotmail.com|0700223355
-2|Jardin|Angélique|Angela|Gelala@gmail.com|0611223355
-3|Eric|Pierre|Pierrot|Pipo@wanadoo.com|0476112233
+1|Dupont|Frédérique|Fredo|Freeed|Fred@hotmail.com|0700223355
+2|Jardin|Angélique|Angela|Angege|Gelala@gmail.com|0611223355
+3|Eric|Pierre|Pierrot|Pierrot28|Pipo@wanadoo.com|0476112233
