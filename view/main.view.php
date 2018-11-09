@@ -31,6 +31,7 @@
               print "<div class = 'text'>      <h3> $value->marque </h3>";
               print "<div class = 'text'>      <h3> $value->modele </h3>";
               print "<div class = 'text'>      <h3> $value->annee </h3>";
+              print "<div class = 'text'>      <h3> $value->prix € </h3>";
              print '</article>';
          }
 

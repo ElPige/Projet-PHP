@@ -10,6 +10,6 @@ class Voiture
   public $annee;
   public $image;
   public $appartientRef;
-
+  public $prix;
 };
 ?>
