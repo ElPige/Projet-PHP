@@ -12,7 +12,7 @@ if(count($_POST)==2){
 
     if ($dao->getMembre($mail)){
       $membre = $dao->getMembre($mail);
-      var_dump($membre->mdp , $mdp);
+      var_dump("mdp incorrecte");
       if ($membre->mdp == $mdp){
         var_dump(1);
         header('Location:../controler/main.ctrl.php');
@@ -20,7 +20,7 @@ if(count($_POST)==2){
         include("../view/accueil.view.php");
       }
     }else{
-      var_dump("mdp incorrecte");
+      var_dump("Utilisateur incorrecte");
       include("../view/accueil.view.php");
     }
   }  else {
