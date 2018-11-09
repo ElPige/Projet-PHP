@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Page d'accueil</title>
+    <link rel="stylesheet" type="text/css" href="../view/design/accueil.view.css">
   </head>
   <body>
     <header>
@@ -19,7 +20,7 @@
       <h2>CONNNECTEZ VOUS</h2>
       <fieldset>
       <legend align="left"><div id="fieldtitre"> Connexion</div></legend>
-        <form class="" action="main.ctrl.php" method="post">
+        <form class="" action="accueil.ctrl.php" method="post">
             Adresse email <input name="mail" type="text" size=25 > <br>
             Mot de passe <input name="mdp" type="password" size=25> <br>
             <input type="submit" value="Connexion"/>

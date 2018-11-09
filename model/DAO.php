@@ -26,10 +26,25 @@ $dao = new DAO();
           return $result;
         }
 
-        function getMembre($appartientRef) {
-          $requte = "SELECT * WHERE Membre WHERE $appartientRef = reference";
+        function getMembre($mail){
+            $requete = "SELECT * FROM Membre WHERE email = '$mail' ";
+            $query = ($this->db)->query($requete);
+            $result = $query->fetchAll(PDO::FETCH_CLASS, "stdClass");
+            if (isset($result[0])){
+
+              $_SESSION['Membre']=$result[0];
+              return $result[0];
+            }else{
+              return null;
+            }
+          }
+
+
+        function getVoitureMembre($appartientRef) {
+          $requete = "SELECT * FROM Membre WHERE $appartientRef = reference";
           $query = ($this->db)->query($requete);
           $result = $query->fetchAll(PDO::FETCH_CLASS, "stdClass");
+          return $result[0];
         }
 
         function getAnnonce($id) {
@@ -40,4 +55,6 @@ $dao = new DAO();
         }
 }
 $dao = new DAO();
+session_start();
+
 ?>

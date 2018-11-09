@@ -16,8 +16,8 @@ CREATE TABLE Membre (
   referenceM integer,
   nom varchar(60),
   prenom varchar(60),
-  mdp varchar(10),
   pseudo varchar(60),
+  mdp varchar(10),
   email varchar(100),
   telephone varchar(10),
   PRIMARY KEY(referenceM)
