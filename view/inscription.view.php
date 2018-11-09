@@ -23,7 +23,7 @@
 
    <fieldset><legend>Contacts</legend>
    <label for="email"> Votre adresse Mail * :</label><input type="text" name="email" id="email" required/><br />
-   <label for="telephone"> Votre téléphone * :</label><input type="text" name="tel" id="tel" required/><br />
+   <label for="tel"> Votre téléphone * :</label><input type="text" name="tel" id="tel" required/><br />
    </fieldset>
 
    <p>Les champs suivis d'un * sont obligatoires</p>
