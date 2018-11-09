@@ -99,17 +99,16 @@ $dao = new DAO();
         }
 
         function ajoutMembre($nom, $prenom, $pseudo, $mdp, $email, $telephone){
-          $result2;
+          $result;
           $id=$this->getMaxId('Membre')+1;
           var_dump($id);
           $requete = "Insert into Membre values($id, '$nom', '$prenom', '$pseudo' , '$mdp', '$email', '$telephone')";
           var_dump($requete);
           $result=($this->db)->query($requete);
-
+            return $result;
           }
 
-        return $result2;
-        }
+
       }
 
 $dao = new DAO();
