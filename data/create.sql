@@ -1,5 +1,5 @@
-DROP TABLE voiture;
-DROP TABLE membre;
+DROP TABLE Voiture;
+DROP TABLE Membre;
 
 CREATE TABLE Voiture (
   reference integer,
@@ -14,12 +14,19 @@ CREATE TABLE Voiture (
 );
 
 CREATE TABLE Membre (
-  referenceM integer,
+  reference integer,
   nom varchar(60),
   prenom varchar(60),
   pseudo varchar(60),
   mdp varchar(10),
   email varchar(100),
   telephone varchar(10),
-  PRIMARY KEY(referenceM)
+  PRIMARY KEY(reference)
+);
+
+CREATE TABLE Annonce (
+  reference integer,
+  titre varchar(50),
+  descriptif varchar(1000),
+  PRIMARY KEY(reference)
 );

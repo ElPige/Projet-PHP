@@ -1,0 +1,6 @@
+1|Ma belle voiture|Elle est très belle
+2|Peugeot 207 Neuve|Peugeot à vendre je la veut plus
+3|Fiat Panda occaz|Biensur
+4|Lamborghini vraiment parfaite|Ici mettre une description
+5|Renault et pas Peugeot|Je pense que tout ce voit sur la photo
+6|Bugatti Veyron|Ceci n'est pas une arnaque

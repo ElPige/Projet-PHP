@@ -53,8 +53,37 @@ $dao = new DAO();
           $result =$query->fetchAll(PDO::FETCH_CLASS,"stdClass");
           return $result;
         }
-}
+
+        function getMaxId($from){
+          $requete = "SELECT max(reference) FROM $from";
+          $query=($this->db)->query($requete);
+          $result =$query->fetch();
+          return $result['max(reference)'];
+        }
+
+
+
+        function ajoutAnnonce($titre, $descriptif, $nom, $marque, $modele, $annee, $prix){
+          $result2;
+
+          $requete = "Insert into Annonce values($dao->getMaxId('Voiture')+1, '$titre', '$descriptif')";
+          $query=($this->db)->query($requete);
+          $result =$query->fetch();
+          var_dump($result);
+          if($result[0]){
+
+            $requete2 = "Insert into Voiture values($dao->getMaxId('Voiture')+1, '$titre', '$nom', '$marque', '$modele', '0','$annee', '$prix')";
+
+            $query=($this->db)->query($requete2);
+          $result2 =$query->fetch();
+
+          }
+
+        return $result2[0];
+        }
+
 $dao = new DAO();
+var_dump($dao->ajoutAnnonce('Membre'));
 session_start();
 
 ?>
