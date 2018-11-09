@@ -7,10 +7,13 @@
   <body>
 
     <?php
-      $numAnnonce = $_GET["annonce"];
-
-      
-
+    foreach ($annoncev as $key => $value) {
+      print "<div class = 'img'><img src = \"../data/BD/Image/$value->reference.jpg\"/></div>";
+      print "<div class = 'text'> <h3> Nom : $value->nom </h3>";
+      print "<div class = 'text'>      <h3> Marque : $value->marque </h3>";
+      print "<div class = 'text'>      <h3> Modele : $value->modele </h3>";
+      print "<div class = 'text'>      <h3> Annee de sortie : $value->annee </h3>";
+    }
 
      ?>
 

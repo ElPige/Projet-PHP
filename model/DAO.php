@@ -31,6 +31,13 @@ $dao = new DAO();
           $query = ($this->db)->query($requete);
           $result = $query->fetchAll(PDO::FETCH_CLASS, "stdClass");
         }
+
+        function getAnnonce($id) {
+          $requete = "SELECT * FROM voiture where reference = $id";
+          $query=($this->db)->query($requete);
+          $result =$query->fetchAll(PDO::FETCH_CLASS,"stdClass");
+          return $result;
+        }
 }
 $dao = new DAO();
 ?>

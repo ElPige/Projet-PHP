@@ -10,6 +10,7 @@ if (isset($_GET['annonce'])) {
 }
 
 if ($annonce != '') {
+    $annoncev = $dao->getAnnonce($annonce);
   include('../view/annonce.view.php');
 } else {
   include('../view/main.view.php');
