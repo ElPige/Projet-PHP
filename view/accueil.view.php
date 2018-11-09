@@ -6,12 +6,13 @@
   </head>
   <body>
     <header>
-      <h1>CAR'USELL</h1>
+
 
       <link rel="stylesheet" type="text/css" href="css/accueil.css">
     </header>
     <div class="Descriptif">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h1>CAR'USELL</h1>
+      <p>Bonjour nous sommes un site de partage de vente de voitures. Merci de nous faire confiance et de poster des annonces sur notre site.</p>
     </div>
 
     <div class="Connection/Inscription">

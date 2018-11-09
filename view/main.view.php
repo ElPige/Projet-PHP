@@ -13,7 +13,8 @@
           <li><a href="contact.asp">Modèle</a></li>
           <li><a href="contact.asp">Année</a></li>
           <li><a href="contact.asp">Rechercher</a></li>
-        <li style="float:right"><a class="active" href="#about">Déposer une annonce</a></li>
+          <li><a href="contact.asp">Déposer une annonce</a></li>
+        <li style="float:right"><a class="active" href="#about">Deconnection</a></li>
       </ul>
     </nav>
 
