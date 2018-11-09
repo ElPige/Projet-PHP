@@ -9,10 +9,10 @@
     <nav id="header">
       <h2> Annonces de voiture Car'Usell </h2>
       <ul>
-        <li><a href="news.asp">Marques</a></li>
-          <li><a href="contact.asp">Modèle</a></li>
-          <li><a href="contact.asp">Année</a></li>
-          <li><a href="contact.asp">Rechercher</a></li>
+        <li><a href="../controler/main.ctrl.php">Marques</a></li>
+          <li><a href="../controler/main.ctrl.php">Modèle</a></li>
+          <li><a href="../controler/main.ctrl.php">Année</a></li>
+          <li><a href="../controler/main.ctrl.php">Rechercher</a></li>
           <li><a href="../controler/ajouterAnnonce.ctrl.php">Déposer une annonce</a></li>
           <?php
 

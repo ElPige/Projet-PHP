@@ -61,6 +61,13 @@ $dao = new DAO();
           return $result[0];
         }
 
+        function getAnnonce2($id) {
+          $requete = "SELECT * FROM annonce where reference = $id";
+          $query=($this->db)->query($requete);
+          $result =$query->fetchAll(PDO::FETCH_CLASS,"stdClass");
+          return $result[0];
+        }
+
         function getMaxId($from):int  {
           $requete = "SELECT max(reference) FROM $from";
           $query=($this->db)->query($requete);

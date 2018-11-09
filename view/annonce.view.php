@@ -9,6 +9,9 @@
     $retour = 'http://www-info.iut2.upmf-grenoble.fr/intranet/enseignements/ProgWeb/M3104/TP/tp02/sujet/img/Actions-arrow-left-icon.png';
     echo '<a href="../controler/main.ctrl.php"><img src='.$retour.'></a>';
 
+      print "<div class = 'text'> <h3> Titre : $a->titre </h3>";
+      print "<div class = 'text'> <h3> Descriptif : $a->descriptif </h3>";
+
       print "<div class = 'img'><img src = \"../data/BD/Image/$annoncev->reference.jpg\"/></div>";
       print "<div class = 'text'> <h3> Nom : $annoncev->nom </h3>";
       print "<div class = 'text'>      <h3> Marque : $annoncev->marque </h3>";
