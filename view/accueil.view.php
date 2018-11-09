@@ -30,7 +30,7 @@
 
       </fieldset>
 
-      <a href="http://localhost/Projet-PHP/controler/inscription.ctrl.php"> S'inscrire</a>
+      <a href="http://www-etu-info.iut2.upmf-grenoble.fr/~monteile/ProgWeb/Projet-PHP/controler/inscription.ctrl.php"> S'inscrire</a>
     </div>
 
     <div class="Annonces">

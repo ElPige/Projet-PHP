@@ -1,6 +1,14 @@
 <?php
 require_once("../model/DAO.php");
 
+
+
+
+
+
+
+
+
 if(isset($_GET['deco'])&& $_GET['deco']){
   session_destroy();
 }
