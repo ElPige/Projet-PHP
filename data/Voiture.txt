@@ -1,3 +1,6 @@
 1|Peugeot 3008|Peugeot|3008|2010|voiture1.jpg|1|9000
 2|Peugeot 207|Peugeot|207|2006|voiture2.jpg|3|6500
 3|Fiat Panda|Fiat|Panda|2000|voiture3.jpg|2|1200
+4|Lambo Aventador|Lamborghini|Aventador|2011|voiture4.jpg|4|324000
+5|Renault 4|Renault|4L|1982|voiture5.jpg|4|800
+6|Bugatti Veyron 16.4|Bugatti|Veyron|2015|voiture6.jpg|4|205000
