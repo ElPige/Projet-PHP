@@ -1,3 +1,5 @@
+DROP TABLE voiture;
+
 CREATE TABLE Voiture (
   reference integer,
   nom varchar(60),
@@ -5,16 +7,17 @@ CREATE TABLE Voiture (
   modele varchar(60),
   annee integer,
   img varchar(100),
-  appartienRef integer;
+  appartienRef integer,
+  prix integer,
   PRIMARY KEY(reference)
 );
 
-CREATE TABLE Membre (
-  reference integer,
+/*CREATE TABLE Membre (
+  referenceM integer,
   nom varchar(60),
   prenom varchar(60),
   pseudo varchar(60),
   email varchar(100),
   telephone varchar(10);
-  PRIMARY KEY(reference)
-);
+  PRIMARY KEY(referenceM)
+);*/
