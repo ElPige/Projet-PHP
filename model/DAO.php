@@ -39,6 +39,13 @@ $dao = new DAO();
             }
           }
 
+          function getMember($id) {
+            $requete = "SELECT * FROM membre where referenceM = $id";
+            $query=($this->db)->query($requete);
+            $result =$query->fetchAll(PDO::FETCH_CLASS,"stdClass");
+            return $result[0];
+          }
+
 
         function getVoitureMembre($appartientRef) {
           $requete = "SELECT * FROM Membre WHERE $appartientRef = reference";
@@ -51,7 +58,7 @@ $dao = new DAO();
           $requete = "SELECT * FROM voiture where reference = $id";
           $query=($this->db)->query($requete);
           $result =$query->fetchAll(PDO::FETCH_CLASS,"stdClass");
-          return $result;
+          return $result[0];
         }
 
         function getMaxId($from){
