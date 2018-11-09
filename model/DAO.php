@@ -97,6 +97,19 @@ $dao = new DAO();
 
         return $result2;
         }
+
+        function ajoutMembre($nom, $prenom, $pseudo, $mdp, $email, $telephone){
+          $result2;
+          $id=$this->getMaxId('Membre')+1;
+          var_dump($id);
+          $requete = "Insert into Membre values($id, '$nom', '$prenom', '$pseudo' , '$mdp', '$email', '$telephone')";
+          var_dump($requete);
+          $result=($this->db)->query($requete);
+
+          }
+
+        return $result2;
+        }
       }
 
 $dao = new DAO();
