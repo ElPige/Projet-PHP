@@ -1,4 +1,5 @@
 DROP TABLE voiture;
+DROP TABLE membre;
 
 CREATE TABLE Voiture (
   reference integer,

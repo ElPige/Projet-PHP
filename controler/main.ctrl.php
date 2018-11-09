@@ -1,8 +1,6 @@
 <?php
 
  require_once("../model/DAO.php");
- var_dump($_SESSION['Membre']);
-
  $voiture=$dao->getVoiture();
 
 if (isset($_GET['annonce'])) {
