@@ -19,3 +19,4 @@ if ($annonce != '') {
   include('../view/main.view.php');
 }
 ?>
+ed
